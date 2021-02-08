@@ -45,7 +45,7 @@ namespace ConsoleApp3
                         {
                             case "[ID]":
                                 value = client.ID.ToString();break;
-                            case "Name":
+                            case "[Name]":
                                 value = client.Name;break;
                             case "[BirthDate]":
                                 value = client.BirthDate.ToString("dd.MM.yyyy");break;
